@@ -9,8 +9,9 @@ import requests
 def count_words(subreddit, word_list, after=None, word_counts=None,
                 keywords=None, keyword_weights=None):
     """
-    Recursively fetches hot articles from a subreddit and counts keyword occurrences
-    in titles. Prints results sorted by count (desc) then alphabetically (asc).
+    Recursively fetches hot articles from a subreddit and counts keyword
+    occurrences in titles. Prints results sorted by count (desc) then
+    alphabetically (asc).
 
     Args:
         subreddit: The subreddit name to query
